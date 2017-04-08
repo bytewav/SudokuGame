@@ -10,6 +10,8 @@
 		public SudokuBoard SudokuBoard;
 		int[,] board;
 
+		public float Spacing = 1;
+
 		[Header("Multi meshFilter/Mesh renderer")]
 		public Mesh[] Meshes;
 		public Material[] Materials;
@@ -26,7 +28,8 @@
 			{
 				for (int y = 0; y < 9; y++) 
 				{
-					Vector3 p = new Vector3 (x,y,0);
+					Vector3 p = new Vector3 (x * Spacing,y * Spacing,0);
+
 					Matrix4x4 matrice = Matrix4x4.TRS(p,Quaternion.identity,Vector3.one);
 					int boardNum = board [x, y];
 					Mesh mesh = Meshes[boardNum];
