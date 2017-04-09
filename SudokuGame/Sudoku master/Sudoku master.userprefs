@@ -1,0 +1,32 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BoardRenderer.cs">
+    <Files>
+      <File FileName="Assets/ExaGames/Sudoku/Scripts/SudokuBoard.cs" Line="47" Column="13" />
+      <File FileName="Assets/BoardRenderer.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sudoku master" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="ExaGames" expanded="True">
+                <Node name="Sudoku" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="BoardRenderer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
